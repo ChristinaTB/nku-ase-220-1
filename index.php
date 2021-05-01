@@ -1,7 +1,7 @@
 <?php
 
 $options = ['rock', 'paper', 'scissor'];
-$result = rand(0, count($options)-1);
+$result = $options[rand(0, count($options)-1)];
 ?>
 
 <!doctype html>
